@@ -1,0 +1,115 @@
+# codetech_task1
+#include<stdio.h>
+int main()
+{
+    int score=0;
+    int answer;
+    printf("hello,welcome to the quiz world.!\n");
+    printf("Answer the given question by selecting right answer.\n\n");
+
+    //question no.1;
+    printf("which organisation manufacture arms and weapons for the indian army?\n");
+    printf("1.OFB\n");
+    printf("2.BFO\n");
+    printf("3.OFA\n");
+    printf("4.OCC\n");
+    printf("your answer is-");
+    scanf("%d",&answer);
+    if (answer == 1) {
+        printf("Correct!\n\n");
+        score++;
+    } else {
+        printf("Wrong! The correct answer is 1.OFB.\n\n");
+    }
+
+    //question no.2;
+    printf("what is the fullform of COAS?\n");
+    printf("1.chief of army staff\n");
+    printf("2.chief of army selection\n");
+    printf("3.chief of airport staff\n");
+    printf("4.chief of army soldier\n");
+    printf("your answer is-");
+    scanf("%d",&answer);
+    if (answer == 1) {
+        printf("Correct!\n\n");
+        score++;
+    } else {
+        printf("Wrong! The correct answer is 1.chief of army staff.\n\n");
+    }
+
+    //question no.3;
+    printf("what is the India/china boarder line called ?");
+    printf("1.mannerheim line\n");
+    printf("2.medicine line\n");
+    printf("3.Mcmohan line\n");
+    printf("4.marginal line\n");
+    printf("your answer is-");
+    scanf("%d",&answer);
+    if (answer == 3) {
+        printf("Correct!\n\n");
+        score++;
+    } else {
+        printf("Wrong! The correct answer is 3.Mcmohan line.\n\n");
+    }
+
+    //question no.4;
+    printf("who is the father of indian army?");
+    printf("1.major gibraltar\n");
+    printf("2.stringern lawarence\n");
+    printf("3.read stringer\n");
+    printf("4.subroto mukerjee\n");
+    printf("your answer is-");
+    scanf("%d",&answer);
+    if (answer == 2) {
+        printf("Correct!\n\n");
+        score++;
+    } else {
+        printf("Wrong! The correct answer is 2.stringern lawrence.\n\n");
+    }
+
+    //question no.5;
+    printf("what is the highest military honour of india?");
+    printf("1.padma bhushan\n");
+    printf("2.bharat ratna\n");
+    printf("3.maha vir chakra\n");
+    printf("4.param vir chakra\n");
+    printf("your answer is-");
+    scanf("%d",&answer);
+    if (answer == 4) {
+        printf("Correct!\n\n");
+        score++;
+    } else {
+        printf("Wrong! The correct answer is 4.param vir chakra.\n\n");
+    }
+    // Final Score
+    printf("Quiz Over! Your final score is: %d out of 5\n", score);
+
+    // Feedback based on score
+    if (score == 5) {
+        printf("Excellent! You got all answers right!\n");
+    }
+     else if (score == 4) {
+        printf(" very Good job! You got 4 out of 5 correct.\n");
+    }
+     else if (score == 3) {
+        printf(" Good job and Good efforts!\n");
+     }
+      else if (score == 2) {
+        printf("keep going! You got 2 out of 5 correct.\n");
+    }
+     else if (score == 1) {
+        printf("1 out of 5!good luck next time!\n");
+    }
+     else {
+        printf("Better luck next time!\n");
+    }
+    return 0;
+
+}
+
+
+
+
+
+
+
